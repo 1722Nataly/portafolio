@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habilidades</title>
+    <link rel="stylesheet" href="styles.css">
+     </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+<body>
+    <header class="encabezado">
+        <h1>Habilidades</h1>
+    </header>
+
+    <main class="contenedor-habilidades">
+    <section class="habilidades-bloque">
+      <h2>Habilidades Tecnológicas</h2>
+      <ul class="habilidades-lista">
+        <li>Manejo de Microsoft Office (Word, Excel, PowerPoint)</li>
+        <li>Diseño web básico con HTML y CSS</li>
+        <li>Uso de plataformas educativas virtuales (Moodle, Teams, Google Classroom)</li>
+        <li>Gestión de redes sociales para negocios</li>
+      </ul>
+    </section>
+
+    <section class="habilidades-bloque">
+      <h2>Habilidades Personales</h2>
+      <ul class="habilidades-lista">
+        <li>Responsabilidad y compromiso</li>
+        <li>Organización del tiempo y trabajo autónomo</li>
+        <li>Capacidad de adaptación al cambio</li>
+        <li>Resolución de problemas</li>
+      </ul>
+    </section>
+
+    <section class="habilidades-bloque">
+      <h2>Habilidades Comunicativas</h2>
+      <ul class="habilidades-lista">
+        <li>Buena expresión oral y escrita</li>
+        <li>Escucha activa</li>
+        <li>Empatía y trabajo en equipo</li>
+        <li>Atención al cliente</li>
+      </ul>
+    </section>
+  </main>
+
+   <div class="botones-navegacion">
+      <a href="portafolio.html" class="boton-regresar">← Volver a Portafolio</a> 
+      <a href="index.html" class="boton-regresar">← Volver a Inicio</a>
+       <a href="../educacion.html" class="boton-siguiente">Siguiente →</a>
+    </div>
+
+  <footer class="footer-pagina">
+    <p>Todos los derechos reservados.© 2025 Nataly Sofia Moreno Erazo.</p>
+    <p>Desarrollado con HTML-CSS <i class="fas fa-heart" style="color: red;"></i> por Nataly Moreno.</p>
+  </footer>
+
+  <script>
+    function cerrarVentana(event) {
+      event.preventDefault();
+      if (confirm("¿Quieres salir de esta página?")) {
+        window.close();
+        window.location.href = "index.html";
+      }
+    }
+  </script>
+</body>
+</html>

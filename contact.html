@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactame</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+    <h1>¡Conéctate Conmigo!</h1>
+    <p>Por mis redes sociales</p>
+  </header>
+
+  <main class="redes-sociales">
+    <a href="https://www.facebook.com/share/1EMSoKLqXt/" class="icono-red facebook" target="_blank">
+      <i class="fab fa-facebook-f"></i> Facebook
+    </a>
+
+    <a href="https://www.instagram.com/nathysofiamoreno?igsh=MTNtZzlpN3djMXpxMg==" class="icono-red instagram" target="_blank">
+      <i class="fab fa-instagram"></i> Instagram
+    </a>
+
+    <a href="https://www.tiktok.com/@04moreno._.nathy?_t=ZM-8x52yGGDEl6&_r=1" class="icono-red tiktok" target="_blank">
+      <i class="fab fa-tiktok"></i> TikTok
+    </a>
+
+    <a href="https://wa.me/qr/5QMHTPPR72L2D1" class="icono-red whatsapp" target="_blank">
+      <i class="fab fa-whatsapp"></i> WhatsApp
+    </a>
+    <div style="text-align: center; margin-top: 20px;">
+     <a href="occupation.html" class="boton-regresar">← Volver a Ocupación</a> 
+      <a href="index.html" class="boton-regresar">← Volver a Inicio</a>
+      <a href="#" class="boton-regresar" onclick="cerrarVentana(event)">Salir</a>
+    </div>
+    <script>
+    function cerrarVentana(event) {
+      event.preventDefault();
+      if (confirm("¿Quieres salir de esta página?")) {
+        window.close();
+        window.location.href = "index.html";
+      }
+    }
+  </script>
+  </main>
+  <footer class="footer-pagina">
+    <p>Todos los derechos reservados.© 2025 Nataly Sofia Moreno Erazo.</p>
+    <p>Desarrollado con HTML-CSS <i class="fas fa-heart" style="color: red;"></i> por Nataly Moreno.</p>
+  </footer>
+  </body>
+</html>

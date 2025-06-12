@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Profesional- Nataly Moreno</title>
+    <link rel="stylesheet" href="styles.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+<body>
+    <header class="encabezado">
+        <h1>
+          <img src="assets/logo.utm.png" alt="Logo UTM" class="logo-utm">
+                Bienvenido a mi Portafolio Profesional
+        </h1>
+        <p>Hola, mi nombre es Nataly Moreno, Estudiante de la Universidad "Tecnica de Manabi".</p>
+         <img src="assets/1 imagen.jpg" alt="Foto de Nataly Moreno" class="foto-perfil" style="border-radius: 15px;">
+    </header>
+    <div class="menu-icon" onclick="toggleMenu()">
+  <i class="fas fa-bars"></i>
+</div>
+    <ul class="menu-navegacion"id="menu">
+    <li><a href="index.html" class="activo">Inicio</a></li>
+    <li><a href="about.html">Sobre Mi</a></li>
+    <li><a href="date.html">Datos Personales</a></li>
+    <li><a href="portafolio.html">Portafolio</a></li>
+    <li><a href="ability.html">Habilidades</a></li>
+    <li><a href="educacion.html">Titulos</a></li>
+    <li><a href="contact.html">contactame</a></li>
+</ul>
+    </main> 
+    <footer class="footer-pagina">
+    <p>Todos los derechos reservados.© 2025 Nataly Sofia Moreno Erazo.</p>
+    <p>Desarrollado con HTML-CSS <i class="fas fa-heart" style="color: red;"></i> por Nataly Moreno.</p>
+    </footer>
+     <script>
+        function toggleMenu() {
+            document.getElementById("menu").classList.toggle("active");
+        }
+    </script>
+    </body>
+</html>
