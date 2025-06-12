@@ -40,8 +40,7 @@ header {
 }
 
   
-
-main p {
+.main p {
     margin-top: 60px; /* Aumenta este valor para más espacio */
     text-align: left; /* Opcional, para centrar el texto */
     font-size: 1.2rem;
@@ -120,24 +119,31 @@ ul li a.activo {
 /* Estilo para pantallas pequeñas */
 @media screen and (max-width: 768px) {
     .menu-icon {
-        display: block;
+    display: block;
+    text-align: right;
+    margin-right: 20px;
+    z-index: 1000;
+    position: relative;
+
     }
 
     .menu-navegacion {
-        display: none;
-        flex-direction: column;
-        align-items: flex-start;
-        background-color: #ea9292;
-        position: absolute;
-        top: 90px;
-        left: 0;
-        width: 100%;
-        padding: 10px 0;
-        z-index: 999;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #cda6bf;
+    position: relative;
+    width: 100%;
+    padding: 0;
+    
     }
 
     .menu-navegacion.active {
-        display: flex;
+    max-height: 500px; 
+    padding: 10px 0;
+  
     }
 
     .menu-navegacion li {
