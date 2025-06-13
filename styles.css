@@ -35,14 +35,14 @@ header {
 
 
 .logo-utm {
-    width: 200px; /* Ajusta el tamaño del logo */
+    width: 200px; 
     height: auto;
 }
 
   
 .main p {
-    margin-top: 60px; /* Aumenta este valor para más espacio */
-    text-align: left; /* Opcional, para centrar el texto */
+    margin-top: 60px;
+    text-align: left; 
     font-size: 1.2rem;
     margin-left: 15px;
 }
@@ -90,7 +90,7 @@ ul li a {
     text-decoration: none;
     font-weight: 600;
     padding: 6px 12px;
-    border-radius: 100px;  /* Aquí ya tienes un borde redondeado pequeño */
+    border-radius: 100px;  
     transition: background-color 0.3s, color 0.3s;
     display: inline-block;
     background-color: #caf0b7;
@@ -98,8 +98,8 @@ ul li a {
 }
 
 ul li a:hover {
-    color: #6316d6; /* Color verde al pasar el mouse */
-    background-color: #8ddeee; /* Fondo suave al pasar el mouse */
+    color: #6316d6;
+    background-color: #8ddeee; 
 }
 
 ul li a.activo {
@@ -182,7 +182,7 @@ ul li a.activo {
     display: inline-block;
     padding: 10px 20px;
     margin: 5px;
-    background-color: #28a745; /* Verde */
+    background-color: #28a745; 
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -192,7 +192,7 @@ ul li a.activo {
 
 .boton-regresar:hover,
 .boton-siguiente:hover {
-    background-color: #218838; /* Verde más oscuro al pasar el mouse */
+    background-color: #218838; 
 }
 
 .historia {
@@ -343,8 +343,8 @@ ul li a.activo {
     padding: 32px;
     text-align: Justify;
     box-sizing: border-box;
-   flex: 1 1 450px; /* crecer, encoger, base 450px */
-  max-width: 500px; /* para no crecer demasiado */
+    flex: 1 1 450px;
+    max-width: 500px; 
 }
 
 .tarjeta-portafolio:hover {
@@ -477,7 +477,7 @@ ul li a.activo {
     text-align: left;
 }
 .habilidades-lista li a {
-    color: #222; /* Color visible siempre */
+    color: #222; 
     text-decoration: none;
     display: block;
     width: 100%;
@@ -494,7 +494,7 @@ ul li a.activo {
 }
 
 .habilidades-lista li::before {
-    content: "\f058"; /* check-circle de Font Awesome */
+    content: "\f058"; 
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
     position: absolute;
@@ -658,12 +658,12 @@ ul li a.activo {
 }
 
 .evento h3 a {
-    text-decoration: none; /* Elimina el subrayado */
-    color: inherit; /* Usa el color del texto */
+    text-decoration: none; 
+    color: inherit; 
 }
 
 .evento h3 a:hover {
-    color: #0a79ce; /* Cambia el color al pasar el ratón */
+    color: #0a79ce; 
 }
 
 .institucion {
